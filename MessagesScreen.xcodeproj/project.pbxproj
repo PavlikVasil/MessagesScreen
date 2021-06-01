@@ -94,17 +94,13 @@
 			children = (
 				E9AA17A32666462200D52610 /* AppDelegate.swift */,
 				E9AA17BC26664C0100D52610 /* Model.swift */,
-				E9AA17C226664D0B00D52610 /* MessageTableViewCell.swift */,
 				E9AA17A52666462200D52610 /* SceneDelegate.swift */,
+				E9AA17D9266674FE00D52610 /* Storyboard */,
 				E9AA17C52666633200D52610 /* NetworkState.swift */,
+				E9AA17D7266674D800D52610 /* MessageCell */,
 				E9AA17A72666462200D52610 /* ViewController.swift */,
 				E9AA17CF26666AA800D52610 /* Extensions */,
-				E9AA17CB26666A5000D52610 /* Date+dayOfWeek.swift */,
-				E9AA17C82666676300D52610 /* Calendar+isDayInCurrentWeek.swift */,
-				E9AA17A92666462200D52610 /* Main.storyboard */,
-				E9AA17BF26664CE500D52610 /* MessageTableViewCell.xib */,
 				E9AA17AC2666462E00D52610 /* Assets.xcassets */,
-				E9AA17AE2666462E00D52610 /* LaunchScreen.storyboard */,
 				E9AA17B12666462E00D52610 /* Info.plist */,
 			);
 			path = MessagesScreen;
@@ -113,8 +109,28 @@
 		E9AA17CF26666AA800D52610 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E9AA17CB26666A5000D52610 /* Date+dayOfWeek.swift */,
+				E9AA17C82666676300D52610 /* Calendar+isDayInCurrentWeek.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E9AA17D7266674D800D52610 /* MessageCell */ = {
+			isa = PBXGroup;
+			children = (
+				E9AA17BF26664CE500D52610 /* MessageTableViewCell.xib */,
+				E9AA17C226664D0B00D52610 /* MessageTableViewCell.swift */,
+			);
+			path = MessageCell;
+			sourceTree = "<group>";
+		};
+		E9AA17D9266674FE00D52610 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E9AA17A92666462200D52610 /* Main.storyboard */,
+				E9AA17AE2666462E00D52610 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
