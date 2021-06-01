@@ -1,4 +1,4 @@
 # MessagesScreen
 Screen with messages
 
-![Screenshot](/Screenshot.png)
+![Screenshot](https://github.com/PavlikVasil/MessagesScreen/blob/master/Screenshot.png)
