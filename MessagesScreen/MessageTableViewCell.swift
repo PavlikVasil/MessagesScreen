@@ -45,16 +45,18 @@ class MessageTableViewCell: UITableViewCell {
         let calendar = Calendar.current
         let date = dateFormatter.date(from: dateString ?? "") ?? Date()
         let dateFormatterPrint = DateFormatter()
-        dateFormatterPrint.dateFormat = "dd MMMM yy"
+        dateFormatterPrint.dateStyle = .short
         
-        if Calendar.current.isDateInToday(date) {
+        if calendar.isDateInToday(date) {
           dateFormatterPrint.dateFormat = "HH:mm"
           return dateFormatterPrint.string(from: date)
         }
         if calendar.isDateInYesterday(date) {
           return "Yesterday"
         }
-        
+        if calendar.isDayInCurrentWeek(date: date) ?? false{
+            return date.dayOfWeek()
+        }
         return dateFormatterPrint.string(from: date)
     }
 
