@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		E9AA17AB2666462200D52610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AA17A92666462200D52610 /* Main.storyboard */; };
 		E9AA17AD2666462E00D52610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AA17AC2666462E00D52610 /* Assets.xcassets */; };
 		E9AA17B02666462E00D52610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AA17AE2666462E00D52610 /* LaunchScreen.storyboard */; };
+		E9AA17BD26664C0100D52610 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA17BC26664C0100D52610 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E9AA17AC2666462E00D52610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9AA17AF2666462E00D52610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9AA17B12666462E00D52610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AA17BC26664C0100D52610 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				5CB0977398E5784FAC6DD74F /* Pods-MessagesScreen.debug.xcconfig */,
 				318C03CF9055C5FB5D0BC8DF /* Pods-MessagesScreen.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -82,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				E9AA17A32666462200D52610 /* AppDelegate.swift */,
+				E9AA17BC26664C0100D52610 /* Model.swift */,
 				E9AA17A52666462200D52610 /* SceneDelegate.swift */,
 				E9AA17A72666462200D52610 /* ViewController.swift */,
 				E9AA17A92666462200D52610 /* Main.storyboard */,
@@ -209,6 +211,7 @@
 				E9AA17A82666462200D52610 /* ViewController.swift in Sources */,
 				E9AA17A42666462200D52610 /* AppDelegate.swift in Sources */,
 				E9AA17A62666462200D52610 /* SceneDelegate.swift in Sources */,
+				E9AA17BD26664C0100D52610 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
