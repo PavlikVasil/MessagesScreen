@@ -1,4 +1,4 @@
 # MessagesScreen
 Screen with messages
 
-![Screenshot](Screenshot.png)
+![Screenshot](/Screenshot.png)
